@@ -11,10 +11,15 @@ Due to the need to install ssl certificates on multiple <b>mikrotik routeros</b>
 - Certname used: cert.pem(crt), privkey.pem(key)
 - Default SSH keypairs name used:  id_dsa, id_dsa.pub
 
+<u>**Note**</u>: 
+1. <i>You must include your list of IP-hosts in the "**routers**" file.</i>
+2. <i>Check that the directory paths are identical to those of the script.</i>
+
 #### Author: Alex Mendes
 https://www.linkedin.com/in/mendesalex/
 
-References:
+###### References:
+
 https://www.albertsola.pro/howto-use-letsencrypt-ssl-certificate-in-mikrotik/
 https://blog.effenberger.org/2018/04/22/creating-ssl-certificates-on-routeros-with-lets-encrypt/
 https://wiki.mikrotik.com/wiki/Manual:Hotspot_HTTPS_example

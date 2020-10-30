@@ -1,4 +1,4 @@
-[![MikrotikBanner](https://banner2.cleanpng.com/20180624/lij/kisspng-mikrotik-routeros-hewlett-packard-ubiquiti-network-hack-5b303904dece18.4006146215298869809126.jpg "MikrotikBanner")](https://banner2.cleanpng.com/20180624/lij/kisspng-mikrotik-routeros-hewlett-packard-ubiquiti-network-hack-5b303904dece18.4006146215298869809126.jpg "MikrotikBanner")
+[![Mikrotik RouterOS](https://hsto.org/webt/mg/mo/7b/mgmo7bqmpjknknd1ahsjyd5uebk.png "Mikrotik RouterOS")](https://mikrotik.com/download "Mikrotik RouterOS")
 
 # mickrotikSSL
 ## How to install SSL certificate in multiple routers
@@ -12,10 +12,9 @@ Due to the need to install ssl certificates on multiple <b>mikrotik routeros</b>
 - Default SSH keypairs name used:  id_dsa, id_dsa.pub
 
 Author: Alex Mendes
-
+https://www.linkedin.com/in/mendesalex/
 
 References:
 https://www.albertsola.pro/howto-use-letsencrypt-ssl-certificate-in-mikrotik/
 https://blog.effenberger.org/2018/04/22/creating-ssl-certificates-on-routeros-with-lets-encrypt/
 https://wiki.mikrotik.com/wiki/Manual:Hotspot_HTTPS_example
-

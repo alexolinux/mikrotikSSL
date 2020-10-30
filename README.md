@@ -14,6 +14,7 @@ Due to the need to install ssl certificates on multiple <b>mikrotik routeros</b>
 <u>**Note**</u>: 
 1. <i>You must include your list of IP-hosts in the "**routers**" file.</i>
 2. <i>Check that the directory paths are identical to those of the script.</i>
+3. <i>Change your domain name in $DOMAIN variable.</i>
 
 #### Author: Alex Mendes
 https://www.linkedin.com/in/mendesalex/

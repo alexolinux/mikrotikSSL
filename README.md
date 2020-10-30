@@ -3,7 +3,7 @@
 # mickrotikSSL
 ## How to install SSL certificate in multiple routers
 
-Due to the need to install ssl certificates on multiple <b>mikrotik routeros</b>, I had to find out a way to use <b>letsencrypt</b> and based on the articles at <b>blog.effenberger.org</b> <i>(Creating SSL certificates on RouterOS with Let's Encrypt)</i> and <b>albertsola.pro</b> <i>(HOWTO: Letsencrypt SSL certificate in Mikrotik)</i> I have created a model script for installing SSL certificates on multiple Mikrotik routers.
+Due to the need to install ssl certificates on multiple <b>mikrotik routeros</b>, I had to find out a way to use <b>letsencrypt</b> and based on the articles at <b>blog.effenberger.org</b> <i>(Creating SSL certificates on RouterOS with Let's Encrypt)</i>, <b>albertsola.pro</b> <i>(HOWTO: Letsencrypt SSL certificate in Mikrotik)</i> and <b>gitpel/letsencrypt-routeros</b> <i>(Let's Encrypt RouterOS / Mikrotik)</i> I have created a model script for installing SSL certificates on multiple Mikrotik routers.
 
 ### Project Recommendation
 - Linux Server with letsencrypt installed
@@ -20,6 +20,7 @@ https://www.linkedin.com/in/mendesalex/
 
 ###### References:
 
+- https://github.com/gitpel/letsencrypt-routeros
 - https://www.albertsola.pro/howto-use-letsencrypt-ssl-certificate-in-mikrotik/
 - https://blog.effenberger.org/2018/04/22/creating-ssl-certificates-on-routeros-with-lets-encrypt/
 - https://wiki.mikrotik.com/wiki/Manual:Hotspot_HTTPS_example

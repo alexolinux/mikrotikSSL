@@ -20,7 +20,7 @@ ROUTEROS_PUBLIC_KEY=/opt/letsencrypt-routeros/id_dsa.pub
 #ROUTEROS_HOST=$(cat routers)
 
 # Certification data
-DOMAIN=portal.zooxwifi.com
+DOMAIN=sub.yourdomain.com
 CERTIFICATE=/etc/letsencrypt/live/$DOMAIN/cert.pem
 KEY=/etc/letsencrypt/live/$DOMAIN/privkey.pem
 #CA=/etc/letsencrypt/live/$DOMAIN/letsencryptauthorityx3.pem

@@ -20,6 +20,6 @@ https://www.linkedin.com/in/mendesalex/
 
 ###### References:
 
-https://www.albertsola.pro/howto-use-letsencrypt-ssl-certificate-in-mikrotik/
-https://blog.effenberger.org/2018/04/22/creating-ssl-certificates-on-routeros-with-lets-encrypt/
-https://wiki.mikrotik.com/wiki/Manual:Hotspot_HTTPS_example
+- https://www.albertsola.pro/howto-use-letsencrypt-ssl-certificate-in-mikrotik/
+- https://blog.effenberger.org/2018/04/22/creating-ssl-certificates-on-routeros-with-lets-encrypt/
+- https://wiki.mikrotik.com/wiki/Manual:Hotspot_HTTPS_example

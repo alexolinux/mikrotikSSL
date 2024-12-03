@@ -1,10 +1,10 @@
 #!/bin/bash
 
-## ---------------------------------------------------------------##
-## Script to apply SSL certificates in routeOS systems |----------##
-## Author: Alex Mendes				       |----------##
-## E-Mail: alex.mendes@zooxsmart.com		       |----------##
-## ---------------------------------------------------------------##
+## --------------------------------------------------------------------------- ##
+## ----------| Script to apply SSL certificates in routeOS systems |---------- ##
+## ----------| Author: Alex Mendes				                         |---------- ##
+## ----------| E-Mail: alex.mendes@zooxsmart.com		               |---------- ##
+## --------------------------------------------------------------------------- ##
 # Requirements:
 # - PROJECT FOLDER: 	/opt/letsencrypt-routeros
 # - SSH KEYPAIRS: 	id_dsa, id_dsa.pub
@@ -42,7 +42,7 @@ $routeros /system resource print
 RESULT=$?
 
 if [ ! $RESULT == 0 ]; then
-  echo -e "SSH avaiable for RouterOS.\n"
+  echo -e "SSH available for RouterOS.\n"
   scp -P $ROUTEROS_SSH_PORT $ROUTEROS_PUBLIC_KEY "$ROUTEROS_USER"@"$ROUTEROS_HOST":"id_dsa.pub"
   if [echo $? == 0 ]; then
    echo -e "SSH configuration is concluded. Following the flow...\n"
